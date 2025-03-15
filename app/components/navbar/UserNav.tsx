@@ -44,7 +44,7 @@ const UserNav: React.FC<UserNavProps> = ({
                         label='Log In'
                         onClick={() => {
                             setIsOpen(false)
-                            loginModal.open
+                            loginModal.open()
                             }}
                         />
 
@@ -52,7 +52,7 @@ const UserNav: React.FC<UserNavProps> = ({
                         label='Sign In'
                         onClick={() => {
                             setIsOpen(false)
-                            SignUpModal.open
+                            SignUpModal.open()
                             }}  
                         />
                     </>
